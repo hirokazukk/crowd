@@ -1,0 +1,163 @@
+/*==============================
+	共通
+==============================*/
+
+body {
+    /*font-family:"ヒラギノ明朝 Pro W6", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝", serif;*/
+	color: #666666;
+}
+
+a {
+	color: #999999;
+}
+
+a:hover {
+	color: #666666;
+	text-decoration: none;
+	-webkit-transition: all 0.5s ease;
+}
+
+h4 {
+	font-size: 15px;
+}
+
+.main {
+	margin-top: 30px;
+}
+
+
+/*==============================
+	header
+==============================*/
+h1 {
+	float: left;
+	margin-right: 10px;
+}
+
+h2 {
+	font-size: 9px;
+	color: #666666;
+	font-weight: normal;
+	padding-top: 20px;
+	margin: 0;
+}
+
+.header-display {
+	width: 940px;
+	height: 250px;
+	background-color: #eeeeee;
+	background: url('../img/topimage.jpg') no-repeat;
+	margin-bottom: 30px;
+}
+
+
+/*==============================
+	navigation
+==============================*/
+
+.navigation {
+	border-bottom: solid 1px #eeeeee;
+	border-top: solid 1px #eeeeee;
+}
+
+.navigation ul {
+	list-style-type: none;
+}
+
+.navigation ul {
+	padding: 0;
+	margin: 0;
+}
+
+.navigation li {
+	float: left;
+	width: 180px;
+	background-color: #ffffff;
+}
+
+.navigation a {
+	display: block;
+	padding: 20px 0;
+	font-size: 15px;
+	text-align: center;
+	color: #666666;
+}
+
+.navigation a:hover {
+	background-color: #fafafa;
+}
+
+/*==============================
+	article
+==============================*/
+
+.article {
+	clear: both;
+	background-color: #fafafa;
+	background: url('../img/bg.png');
+	padding-top: 30px;
+}
+
+.article-content {
+	margin-bottom: 100px;
+}
+
+.article-maincontent {
+	padding-left: 30px;
+}
+
+.article-maincontent img {
+	border: 1px solid #cccccc;
+}
+
+.article h3 {
+	font-size: 18px;
+	margin: 0 0 10px 0;
+	border-bottom: 1px solid #eeeeee;
+	text-shadow: 0px 1px 1px #dddddd;
+}
+
+.back-to-top {
+	text-align: right;
+	font-weight: bold;
+}
+
+
+/*article 右サイド
+-------------------------------------*/
+
+.article ul {
+	list-style-type: none;
+	margin: 0;
+}
+
+.article li {
+	display: block;
+	border: 1px solid #eeeeee;
+	background-color: #ffffff;
+	padding: 20px 0;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.article li a {
+	margin-bottom: px;
+}
+
+/*==============================
+	footer
+==============================*/
+
+.footer {
+	font-size: 12px;
+	background-color: #dddddd;
+	background: url('../img/bg2.png');
+	color: #fafafa;
+	padding: 30px 0 10px 0;
+}
+
+
+
+address {
+	text-align: right;
+}

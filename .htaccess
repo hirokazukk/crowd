@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+RewriteCond %{HTTP_HOST}  ^[^.]+\.crowdpartner\.co\.jp$
+RewriteRule (.*) %{HTTP_HOST}$1  [C]
+RewriteRule ^([^.]+)\.crowdpartner\.co\.jp(.*) /test/$1/$2  [L]
+
+</IfModule>
